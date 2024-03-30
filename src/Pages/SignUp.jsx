@@ -52,7 +52,7 @@ function SignUp() {
     <>
       <div className="pageContainer">
         <header>
-          <p className="pageHeader">Welcome Back!!</p>
+          <p className="pageHeader">Please Sign Up with the required details!</p>
         </header>
 
         <form onSubmit={onSubmit}>
@@ -70,7 +70,7 @@ function SignUp() {
             <img src={visibilityIcon} alt="show password" className="showPassword" onClick={() => setShowPassword((prevState) => !prevState)} />
           </div>
 
-          <Link to="./forgot-password" className="forgotPasswordLink">
+          <Link to="/forgot-password" className="forgotPasswordLink">
             Forgot Password
           </Link>
 
